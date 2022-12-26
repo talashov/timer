@@ -18,6 +18,6 @@ startBtn.onclick = function () {
 
 stopBtn.onclick = function () {
   clearInterval(timerId);
-  number = 0;
+  number = 60;
   countDown.innerHTML = number;
 }
